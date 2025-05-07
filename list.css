@@ -20,7 +20,7 @@ body {
 .dashboard-header h2 {
     display:inline-block;
     font-size: 1.7em;
-    color:#b158e2;
+    color:#64A4D8;
 }
 .divider{
     font-size:1.5em;
@@ -70,7 +70,7 @@ body {
     font-size:1.2em;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: grey;
+    background-color: #FF8C00;
     color:white;
     cursor: pointer;
     text-decoration:none;
@@ -99,11 +99,12 @@ body {
 
 }
 
-.pagination button {
+.pagination a {
+    text-decoration:none;
     padding: 5px 10px;
     border: 1px solid #ccc;
-    border-radius: 3px;
-    background-color: grey;
+    border-radius: 5px;
+    background-color: #FF8C00;
     color:white;
     font-size:1.1em;
     cursor: pointer;
@@ -119,20 +120,22 @@ body {
 .attendance-table th, .attendance-table td {
         border: 1px solid #ddd;
         padding: 15px;
-        text-align: center;
+        text-align:left;
 }
 
 .attendance-table tbody :hover{
-       background-color:#d2bcdd;
+       background-color:#b5cde0;
 }
 
 
 .attendance-table td {
        color:#42403E;
-       padding:10px;      
+       padding:10px;
+       
+      
 }
 .attendance-table th {
-    background-color:#C098D6;
+    background-color:#64A4D8;
     color:white;
   
     
@@ -140,8 +143,7 @@ body {
 }
 .attendance-table input[type="checkbox"] {
   transform: scale(1.6);
-  margin-right: 25px;
- 
+  margin-right:25px;
   
 } 
      
