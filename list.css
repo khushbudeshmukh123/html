@@ -1,0 +1,147 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.dashboard-header {
+   display:block;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.dashboard-header h1 {
+    display:inline-block;
+    margin-right: 10px;
+    font-size: 1.7em;
+    color:#42403E;
+}
+
+.dashboard-header h2 {
+    display:inline-block;
+    font-size: 1.7em;
+    color:#b158e2;
+}
+.divider{
+    font-size:1.5em;
+}
+
+.controls {
+    display: block;
+    margin-bottom: 40px;
+    }
+
+.search-bar {
+    display: block;
+    float:right;
+    margin-top:-50px;
+    font-size:1.5em;
+    
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: 3px solid grey;
+    border-radius: 3px;
+    width: 690px;
+    margin-top:0px;
+
+}
+
+.search-bar button {
+    background-color: white;
+    border: 3px solid grey;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    padding: 8px 10px;
+    cursor: pointer;
+     
+}
+
+
+
+   .actions{
+    display:flex;
+    padding-left:52%;
+    
+}
+
+.actions a {
+    font-size:1.2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: grey;
+    color:white;
+    cursor: pointer;
+    text-decoration:none;
+    padding:10px;
+    margin:4px;
+
+}
+.filter-button i{
+    font-size:0.8em;
+    padding:4px;
+}
+.group-button i{
+    font-size:0.8em;
+    padding:4px;
+}
+.favorites-button i{
+    font-size:0.8em;
+    padding:4px;
+}
+
+
+.pagination {
+    float:right;
+    align-items: center;
+   margin-top:-30px;
+
+}
+
+.pagination button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: grey;
+    color:white;
+    font-size:1.1em;
+    cursor: pointer;
+ 
+
+}
+
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.attendance-table th, .attendance-table td {
+        border: 1px solid #ddd;
+        padding: 15px;
+        text-align: center;
+}
+
+.attendance-table tbody :hover{
+       background-color:#d2bcdd;
+}
+
+
+.attendance-table td {
+       color:#42403E;
+       padding:10px;      
+}
+.attendance-table th {
+    background-color:#C098D6;
+    color:white;
+  
+    
+
+}
+.attendance-table input[type="checkbox"] {
+  transform: scale(1.6);
+  margin-right: 25px;
+ 
+  
+} 
+     
